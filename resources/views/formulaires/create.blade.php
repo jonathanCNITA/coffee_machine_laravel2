@@ -10,7 +10,7 @@ Formulaire
 
 @section('contenu')
 	<h2>Ajouter une boisson</h2>
-	<form class="" action="store/" method="post">
+	<form class="" action="/boissons/store/" method="post">
         {{ csrf_field() }}
         <div class="form-group">
                 <label for="name">Nom de la boisson</label>
