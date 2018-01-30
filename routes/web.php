@@ -31,7 +31,7 @@ Route::get('boissons-tri-prix', 'BoissonsController@orderByPrice')->name('boisso
 Route::get('boissons-tri-alpha', 'BoissonsController@orderByName')->name('boissonsParNom');
 
 Route::get('boissons/create', 'BoissonsController@create')->name('create');
-Route::post('boissons/store', 'BoissonsController@store');
+Route::post('store', 'BoissonsController@store');
 
 Route::get('boissons/edit/{id}', 'BoissonsController@edit')->name('edit');
 Route::post('boissons/update/{id}', 'BoissonsController@update');
